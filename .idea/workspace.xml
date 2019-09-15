@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0a7010-d95d-4afe-8186-e9c43eba1c4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/原始数据/数组的类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原始数据/函数的类型.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/原始数据/数组的类型.md">
+        <entry file="file://$PROJECT_DIR$/原始数据/函数的类型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="790">
-                <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+              <first_editor relative-caret-position="776">
+                <caret line="162" column="61" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -44,14 +44,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/原始数据/对象类型-接口.md" />
         <option value="$PROJECT_DIR$/原始数据/数组的类型.md" />
+        <option value="$PROJECT_DIR$/原始数据/函数的类型.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="179" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="834" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectId" id="1QjHp2FdX9ykogrtlrLSHsLzR9r" />
   <component name="ProjectLevelVcsManager">
@@ -62,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,7 +84,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,7 +117,8 @@
       <workItem from="1568277265602" duration="2069000" />
       <workItem from="1568279369384" duration="2606000" />
       <workItem from="1568442434714" duration="161000" />
-      <workItem from="1568465838609" duration="1043000" />
+      <workItem from="1568465838609" duration="1090000" />
+      <workItem from="1568513803015" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="类型推论">
       <created>1568367425547</created>
@@ -133,17 +134,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568369129162</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="数组的类型">
+      <created>1568466921647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568466921647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3059000" />
+    <option name="totallyTimeSpent" value="5863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="834" y="0" width="1936" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14330874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="类型推论" />
     <MESSAGE value="interface接口、class interface接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface接口、class interface接口" />
+    <MESSAGE value="数组的类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组的类型" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -236,6 +245,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="790">
             <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原始数据/函数的类型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="776">
+            <caret line="162" column="61" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>
