@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0a7010-d95d-4afe-8186-e9c43eba1c4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/原始数据/类型断言.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原始数据/类.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/greenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原始数据/函数的类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/函数的类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原始数据/对象类型-接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/对象类型-接口.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="834" />
-    <option name="width" value="1936" />
-    <option name="height" value="1042" />
-  </component>
   <component name="ProjectId" id="1QjHp2FdX9ykogrtlrLSHsLzR9r" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,8 +32,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/工作/千城数智/cloud-media-fe" />
-    <property name="ts.external.directory.path" value="F:\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="last_opened_file_path" value="E:/workspace/qcmc-particle-bms" />
+    <property name="ts.external.directory.path" value="E:\workPro\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,6 +62,7 @@
       <workItem from="1568442434714" duration="161000" />
       <workItem from="1568465838609" duration="1090000" />
       <workItem from="1568513803015" duration="2757000" />
+      <workItem from="1568603439036" duration="9705000" />
     </task>
     <task id="LOCAL-00001" summary="类型推论">
       <created>1568367425547</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568466921647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="类型断言">
+      <created>1568600585956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568600585957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +111,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -114,6 +123,7 @@
     <MESSAGE value="类型推论" />
     <MESSAGE value="interface接口、class interface接口" />
     <MESSAGE value="数组的类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组的类型" />
+    <MESSAGE value="类型断言" />
+    <option name="LAST_COMMIT_MESSAGE" value="类型断言" />
   </component>
 </project>
