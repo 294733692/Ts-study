@@ -1,13 +1,11 @@
-var User = /** @class */ (function () {
-    function User(firstName, lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.fullName = firstName + ' ' + lastName;
+var Person = /** @class */ (function () {
+    function Person(name) {
+        this.name = name;
     }
-    return User;
+    Person.prototype.sayHi = function () {
+        return "my name is " + this.name;
+    };
+    return Person;
 }());
-function greeter(person) {
-    return 'hello ' + person.firstName + ' ' + person.lastName;
-}
-var user = new User('yu', 'yunchao');
-console.log(greeter(user));
+var a = new Person('Jack');
+console.log(a.sayHi());

@@ -1,22 +1,11 @@
-class User {
-    fullName: string
-    firstName: string
-    lastName: string
-
-    constructor(firstName: string, lastName: string) {
-        this.firstName = firstName
-        this.lastName = lastName
-        this.fullName = firstName + ' ' + lastName
+class Person {
+    name: string
+    constructor(name:string) {
+        this.name = name
+    }
+    sayHi():string {
+        return `my name is ${this.name}`
     }
 }
-
-interface Person {
-    firstName: string,
-    lastName: string
-}
-
-function greeter(person: Person) {
-    return 'hello ' + person.firstName + ' ' + person.lastName
-}
-let user = new User('yu', 'yunchao')
-console.log(greeter(user));
+let a:Person = new Person('Jack')
+console.log(a.sayHi()); //my name is Jack

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0a7010-d95d-4afe-8186-e9c43eba1c4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/进阶/元组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/进阶/类.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/greenter.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +14,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/进阶/元组.md">
+        <entry file="file://$PROJECT_DIR$/进阶/类.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="817">
-                <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="396">
+                <caret line="259" selection-start-line="259" selection-end-line="259" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenter.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="41" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="18" lean-forward="true" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -41,14 +61,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/进阶/元组.md" />
+        <option value="$PROJECT_DIR$/进阶/枚举.md" />
+        <option value="$PROJECT_DIR$/greenter.ts" />
+        <option value="$PROJECT_DIR$/进阶/类.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
-    <option name="y" value="33" />
-    <option name="width" value="1936" />
-    <option name="height" value="1042" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1QjHp2FdX9ykogrtlrLSHsLzR9r" />
   <component name="ProjectLevelVcsManager">
@@ -59,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,17 +93,23 @@
               <item name="Ts-study" type="462c0819:PsiDirectoryNode" />
               <item name="进阶" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Ts-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ts-study" type="462c0819:PsiDirectoryNode" />
+              <item name="greenter.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ts.external.directory.path" value="E:\workPro\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ts-axios" />
+    <property name="ts.external.directory.path" value="F:\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +139,8 @@
       <workItem from="1568465838609" duration="1090000" />
       <workItem from="1568513803015" duration="2757000" />
       <workItem from="1568603439036" duration="11487000" />
-      <workItem from="1569118478358" duration="712000" />
+      <workItem from="1569118478358" duration="4230000" />
+      <workItem from="1570422236654" duration="3080000" />
     </task>
     <task id="LOCAL-00001" summary="类型推论">
       <created>1568367425547</created>
@@ -156,23 +184,34 @@
       <option name="project" value="LOCAL" />
       <updated>1568627178042</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="元组和越界的元素">
+      <created>1569119216282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569119216282</updated>
+    </task>
+    <task id="LOCAL-00008" summary="枚举：">
+      <created>1569121475870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569121475870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="712000" />
+    <option name="totallyTimeSpent" value="7310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16859852" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21688034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -180,6 +219,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45125958" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,7 +279,9 @@
     <MESSAGE value="类型断言" />
     <MESSAGE value="抽象类，类作为接口" />
     <MESSAGE value="类型的别名" />
-    <option name="LAST_COMMIT_MESSAGE" value="类型的别名" />
+    <MESSAGE value="元组和越界的元素" />
+    <MESSAGE value="枚举：" />
+    <option name="LAST_COMMIT_MESSAGE" value="枚举：" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/进阶/类型别名.md">
@@ -260,8 +305,42 @@
     <entry file="file://$PROJECT_DIR$/进阶/元组.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="817">
-            <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+          <first_editor relative-caret-position="439">
+            <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进阶/枚举.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="818">
+            <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="41" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进阶/类.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="396">
+            <caret line="259" selection-start-line="259" selection-end-line="259" />
           </first_editor>
           <second_editor />
         </state>
