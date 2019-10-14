@@ -1,10 +1,9 @@
-function getCounter() {
-    var counter = function (start) { };
-    counter.interval = 123;
-    counter.reset = function () { };
-    return counter;
+function copyFields(target, source) {
+    for (var id in source) {
+        target[id] = source[id];
+    }
+    return target;
 }
-var c = getCounter();
-c(10);
-c.reset();
-c.interval = 5.0;
+var x = { a: 1, b: 2, c: 3, d: 4 };
+console.log(copyFields(x, { b: 10, d: 20 }))
+

@@ -1,16 +1,7 @@
-interface Counter {
-    (start: number): string
-    interval: number
-    reset(): void
+function createArray<T = string>(length: number, value: T): Array<T> {
+    let result: T[] = [];
+    for (let i = 0; i < length; i++) {
+        result[i] = value;
+    }
+    return result;
 }
-
-function getCounter():Counter {
-    let counter = <Counter>function(start: number) {}
-    counter.interval = 123
-    counter.reset = function(){}
-    return counter
-}
-let c = getCounter()
-c(10)
-c.reset()
-c.interval = 5.0
