@@ -1,9 +1,8 @@
-function copyFields(target, source) {
-    for (var id in source) {
-        target[id] = source[id];
+function reverse(x) {
+    if (typeof x === 'number') {
+        return Number(x.toString().split('').reverse().join(''));
     }
-    return target;
+    else if (typeof x === 'string') {
+        return x.split('').reverse().join();
+    }
 }
-var x = { a: 1, b: 2, c: 3, d: 4 };
-console.log(copyFields(x, { b: 10, d: 20 }))
-

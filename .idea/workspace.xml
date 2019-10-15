@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0a7010-d95d-4afe-8186-e9c43eba1c4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/进阶/声明合并.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/函数的类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/函数的类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/原始数据.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/原始数据.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/对象类型-接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/对象类型-接口.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/数组的类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/数组的类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/类.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/类型推论.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/类型推论.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/类型断言.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/类型断言.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原始数据/联合类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/原始数据/联合类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/元组.md" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/元组.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/字符串字面变量类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/字符串字面变量类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/枚举.md" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/枚举.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/类.md" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/类与接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/类与接口.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/类型别名.md" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/类型别名.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/greenter.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +66,9 @@
       <workItem from="1570422236654" duration="3080000" />
       <workItem from="1570498200447" duration="8882000" />
       <workItem from="1570583984231" duration="433000" />
-      <workItem from="1571018906281" duration="5838000" />
+      <workItem from="1571018906281" duration="5885000" />
+      <workItem from="1571102829211" duration="72000" />
+      <workItem from="1571118677521" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="类型推论">
       <created>1568367425547</created>
@@ -149,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571024901693</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改code类型">
+      <created>1571025501036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571025501037</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +199,7 @@
     <MESSAGE value="枚举：" />
     <MESSAGE value="类与接口" />
     <MESSAGE value="泛型" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型" />
+    <MESSAGE value="修改code类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改code类型" />
   </component>
 </project>
